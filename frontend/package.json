@@ -1,0 +1,36 @@
+{
+  "name": "dapp-marketplace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@mantine/core": "^5.1.5",
+    "@mantine/hooks": "^5.1.5",
+    "@tanstack/react-location": "^3.7.4",
+    "@web3-react/core": "8.0.35-beta.0",
+    "@web3-react/metamask": "8.0.28-beta.0",
+    "autoprefixer": "^10.4.8",
+    "axios": "^1.1.2",
+    "ethers": "^5.6.9",
+    "ipfs-http-client": "^57.0.3",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.1.8",
+    "wagmi": "^0.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7",
+    "vite-tsconfig-paths": "^3.5.0"
+  }
+}
